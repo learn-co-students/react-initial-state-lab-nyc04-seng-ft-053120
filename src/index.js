@@ -6,7 +6,7 @@ import Bomb from './Bomb';
 ReactDOM.render(
   <div>
     <ImageSlider />
-    <Bomb initialCount={120} />
+    <Bomb initialCount={Math.floor(Math.random(0) * Math.floor(5))} />
   </div>,
   document.getElementById('root')
 );
